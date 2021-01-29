@@ -1,7 +1,7 @@
 // Declaring variables and dependencies
-const Manager = require("./develop/lib/Manager");
-const Engineer = require("./develop/lib/Engineer");
-const Intern = require("./develop/lib/Intern");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -10,7 +10,7 @@ const employeeList = [];
 let isThereAManager = false;
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
-const render = require("./develop/lib/htmlRenderer");
+const render = require("./lib/htmlRenderer");
 
 // Start the application
 function start() {
