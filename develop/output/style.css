@@ -1,0 +1,16 @@
+body {
+
+    background-image: url(../img/19682.jpg);
+    background-size: auto;
+}
+
+.jumbotron {
+    background-color:  #095e74;
+    color: #ffffff;
+}
+
+.card {
+    margin: 10px;
+    background-color:  #137d97;
+}
+
